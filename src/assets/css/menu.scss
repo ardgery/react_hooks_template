@@ -1,0 +1,22 @@
+@import "mixins";
+.menuWrap{
+    @include flexColumn;
+    @include justifyAlignCenter;
+
+    .menuContent{
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        margin-bottom:15px;
+        width: 140px;
+        padding: 15px 0;
+        cursor: pointer;
+
+        .titleMenu{
+            margin-left:15px;
+        }
+        .iconWrapper{
+            width: 25px;
+        }
+     }
+}

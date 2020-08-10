@@ -1,0 +1,242 @@
+/*=================== RESET ===================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/*=================== VARIABLES ===================*/
+/*==== COLORS ====*/
+/*==== FONT-SIZES ====*/
+/*==== MEDIA QUERIES BREAK ====*/
+.menuWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .menuWrap .menuContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 140px;
+    padding: 15px 0;
+    cursor: pointer; }
+    .menuWrap .menuContent .titleMenu {
+      margin-left: 15px; }
+    .menuWrap .menuContent .iconWrapper {
+      width: 25px; }
+
+/*=================== VARIABLES ===================*/
+/*==== COLORS ====*/
+/*==== FONT-SIZES ====*/
+/*==== MEDIA QUERIES BREAK ====*/
+.headerWrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px 20px 15px; }
+  .headerWrap .headerRight {
+    display: flex;
+    align-items: center; }
+    .headerWrap .headerRight p {
+      margin-right: 10px; }
+    .headerWrap .headerRight .separator {
+      width: 1px;
+      height: 30px;
+      background-color: #ecf0f1;
+      margin: 0 15px; }
+    .headerWrap .headerRight span {
+      color: #2980b9; }
+    .headerWrap .headerRight .phone {
+      margin-right: 15px; }
+    .headerWrap .headerRight .userCircle {
+      font-size: 33px; }
+    .headerWrap .headerRight .grey {
+      color: #4e555b; }
+
+.headerDriverWrapper {
+  display: flex;
+  justify-content: space-between; }
+  .headerDriverWrapper .headerRight {
+    display: flex;
+    align-items: center; }
+    .headerDriverWrapper .headerRight .search {
+      position: relative; }
+      .headerDriverWrapper .headerRight .search .searchIcon {
+        position: absolute;
+        top: 5px;
+        left: 5px; }
+      .headerDriverWrapper .headerRight .search input {
+        padding-left: 15px;
+        box-sizing: border-box; }
+
+/*=================== VARIABLES ===================*/
+/*==== COLORS ====*/
+/*==== FONT-SIZES ====*/
+/*==== MEDIA QUERIES BREAK ====*/
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px; }
+  .cardWrapper .card {
+    width: 24.2%;
+    background: #fff;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: 7px; }
+    .cardWrapper .card .headerWarning {
+      background-color: #fe443b; }
+    .cardWrapper .card .cardHeader {
+      border-bottom: solid 1px #ccc; }
+      .cardWrapper .card .cardHeader .headerInside {
+        display: flex;
+        justify-content: space-between; }
+        .cardWrapper .card .cardHeader .headerInside .headerLeft {
+          padding: 10px;
+          display: flex; }
+          .cardWrapper .card .cardHeader .headerInside .headerLeft .idDriver {
+            margin-right: 5px; }
+        .cardWrapper .card .cardHeader .headerInside .headerRight .ellipsis {
+          padding: 10px;
+          font-size: 20px;
+          cursor: pointer; }
+    .cardWrapper .card .cardContent {
+      position: relative;
+      padding: 10px; }
+      .cardWrapper .card .cardContent .toolTip {
+        position: absolute;
+        top: -10px;
+        right: 7px;
+        padding: 10px 0;
+        border-radius: 5px;
+        -moz-box-shadow: 0px 3px 8px #646464;
+        -webkit-box-shadow: 0px 3px 8px #646464;
+        box-shadow: 0px 3px 8px #646464;
+        background: #fff;
+        z-index: 1; }
+        .cardWrapper .card .cardContent .toolTip .tooltipOption {
+          padding: 10px 15px;
+          cursor: pointer; }
+      .cardWrapper .card .cardContent .photoWrap {
+        height: 60px;
+        width: 60px;
+        border: solid 1px #ccc;
+        border-radius: 50%;
+        display: inline-block;
+        overflow: hidden;
+        margin-bottom: 10px; }
+      .cardWrapper .card .cardContent .textWrap {
+        margin-bottom: 15px;
+        line-height: 20px; }
+        .cardWrapper .card .cardContent .textWrap .schedule {
+          overflow-wrap: break-word;
+          word-wrap: break-word;
+          hyphens: auto; }
+      .cardWrapper .card .cardContent .circleContainer {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 0; }
+        .cardWrapper .card .cardContent .circleContainer .prec {
+          top: 23px;
+          position: relative;
+          font-size: 13px;
+          font-weight: bold; }
+        .cardWrapper .card .cardContent .circleContainer .circle {
+          position: relative;
+          top: 5px;
+          left: 5px;
+          text-align: center;
+          width: 80px;
+          height: 80px;
+          border-radius: 100%;
+          background-color: #E6F4F7; }
+        .cardWrapper .card .cardContent .circleContainer .active-border {
+          position: relative;
+          text-align: center;
+          width: 90px;
+          height: 90px;
+          border-radius: 100%;
+          background-color: #39B4CC;
+          background-image: linear-gradient(162deg, transparent 50%, #A2ECFB 50%), linear-gradient(90deg, #A2ECFB 50%, transparent 50%); }
+
+.modalBg {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1; }
+  .modalBg .modalWrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .modalBg .modalWrap .modalContent {
+      margin: auto;
+      background: #fff;
+      border-radius: 7px; }
+      .modalBg .modalWrap .modalContent .formWrapper {
+        position: relative;
+        padding: 30px; }
+        .modalBg .modalWrap .modalContent .formWrapper .closeModal {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          font-size: 25px;
+          cursor: pointer; }
+        .modalBg .modalWrap .modalContent .formWrapper .rowWrap {
+          margin-bottom: 20px; }
+        .modalBg .modalWrap .modalContent .formWrapper input[type=submit] {
+          display: block;
+          margin: 0 auto;
+          padding: 10px 45px;
+          margin-top: 30px;
+          border-radius: 5px;
+          border: solid 1px #ccc;
+          cursor: pointer; }
+
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #191919; }
+
+.mainWrapper {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.flexContainer {
+  display: flex;
+  position: relative; }
+
+.flex {
+  flex: 1; }
+
+.sideBar {
+  background: #16a085;
+  max-width: 200px;
+  width: 200px;
+  padding: 25px 0 35px 0; }
+
+.mainContent {
+  background: #27ae60;
+  padding: 35px 20px;
+  position: relative; }

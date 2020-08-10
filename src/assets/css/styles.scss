@@ -1,0 +1,36 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "menu";
+@import "header";
+@import "headerDriver";
+@import "cards";
+@import "modal";
+
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	color:$mainBlack;
+}
+.mainWrapper{
+    max-width:1280px;
+    margin:0 auto;
+}
+
+.flexContainer{
+    display:flex;
+    position: relative;
+}
+.flex{
+    flex:1;
+}
+.sideBar{
+    background:#16a085;
+    max-width:200px;
+    width:200px;
+    padding: 25px 0 35px 0;
+}
+.mainContent{
+    background:#27ae60;
+    padding:35px 20px;
+    position: relative;
+}

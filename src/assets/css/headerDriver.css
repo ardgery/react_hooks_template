@@ -1,0 +1,15 @@
+.headerDriverWrapper {
+  display: flex;
+  justify-content: space-between; }
+  .headerDriverWrapper .headerRight {
+    display: flex;
+    align-items: center; }
+    .headerDriverWrapper .headerRight .search {
+      position: relative; }
+      .headerDriverWrapper .headerRight .search .searchIcon {
+        position: absolute;
+        top: 5px;
+        left: 5px; }
+      .headerDriverWrapper .headerRight .search input {
+        padding-left: 15px;
+        box-sizing: border-box; }

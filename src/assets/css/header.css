@@ -1,0 +1,26 @@
+/*=================== VARIABLES ===================*/
+/*==== COLORS ====*/
+/*==== FONT-SIZES ====*/
+/*==== MEDIA QUERIES BREAK ====*/
+.headerWrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px 20px 15px; }
+  .headerWrap .headerRight {
+    display: flex;
+    align-items: center; }
+    .headerWrap .headerRight p {
+      margin-right: 10px; }
+    .headerWrap .headerRight .separator {
+      width: 1px;
+      height: 30px;
+      background-color: #ecf0f1;
+      margin: 0 15px; }
+    .headerWrap .headerRight span {
+      color: #2980b9; }
+    .headerWrap .headerRight .phone {
+      margin-right: 15px; }
+    .headerWrap .headerRight .userCircle {
+      font-size: 33px; }
+    .headerWrap .headerRight .grey {
+      color: #4e555b; }

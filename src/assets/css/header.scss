@@ -1,0 +1,33 @@
+@import "variables";
+.headerWrap{
+    display:flex;
+    justify-content: space-between;
+    padding:30px 15px 20px 15px;
+
+    .headerRight{
+        display:flex;
+        align-items: center;
+    
+        p{
+            margin-right:10px;
+        }
+        .separator{
+            width:1px;
+            height:30px;
+            background-color:#ecf0f1;
+            margin:0 15px;
+        }
+        span{
+            color:$flatBlue;
+        }
+        .phone{
+            margin-right:15px;
+        }
+        .userCircle{
+            font-size: 33px;
+        }
+        .grey{
+            color:$oldGrey;
+        }
+    }
+}

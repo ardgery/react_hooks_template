@@ -1,0 +1,37 @@
+.modalBg {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1; }
+  .modalBg .modalWrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .modalBg .modalWrap .modalContent {
+      margin: auto;
+      background: #fff;
+      border-radius: 7px; }
+      .modalBg .modalWrap .modalContent .formWrapper {
+        position: relative;
+        padding: 30px; }
+        .modalBg .modalWrap .modalContent .formWrapper .closeModal {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          font-size: 25px;
+          cursor: pointer; }
+        .modalBg .modalWrap .modalContent .formWrapper .rowWrap {
+          margin-bottom: 20px; }
+        .modalBg .modalWrap .modalContent .formWrapper input[type=submit] {
+          display: block;
+          margin: 0 auto;
+          padding: 10px 45px;
+          margin-top: 30px;
+          border-radius: 5px;
+          border: solid 1px #ccc;
+          cursor: pointer; }

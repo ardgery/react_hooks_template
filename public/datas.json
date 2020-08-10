@@ -1,0 +1,153 @@
+{
+	"user": {
+			"id":1,
+			"username": "johnsmith99",
+			"fullname":"John Smith"
+	},
+	"driverData":[
+		{
+			"id":"KOB209",
+			"name":"Rowan Gardner",
+			"phone": "085885553377",
+			"schedule": "senin,selasa,rabu,kamis,jumat,sabtu,minggu",
+			"driverStatus": "ok"
+		},
+		{
+			"id":"CKM311",
+			"name":"Ferdinand Russell",
+			"phone": "081144376812",
+			"schedule": "jumat,sabtu,minggu",
+			"driverStatus": "ok"
+		},
+		{
+			"id":"SJD442",
+			"name":"Terry Burrows",
+			"phone": "081283629372",
+			"schedule": "selasa,rabu,kamis,jumat",
+			"driverStatus": "warning"
+		},
+		{
+			"id":"ILM223",
+			"name":"Cliff Hudson",
+			"phone": "083748230476",
+			"schedule": "sabtu,minggu",
+			"driverStatus": "ok"
+		},
+		{
+			"id":"WQR492",
+			"name":"Dale Harvey",
+			"phone": "081892839237",
+			"schedule": "senin,selasa,rabu,kamis,jumat",
+			"driverStatus": "ok"
+		},
+		{
+			"id":"HDN715",
+			"name":"Philbert Chambers",
+			"phone": "081372379372",
+			"schedule": "sabtu,minggu,senin,selasa",
+			"driverStatus": "ok"
+		}
+	],
+	"datas": [
+		{
+			"idMenu":1,
+			"menu": "Beranda",
+			"icon":"home",
+			"contentData":{
+				"content":"This is beranda Page!"
+			}
+		},
+		{
+			"idMenu":2,
+			"menu": "Pickup",
+			"icon":"calendar-week",
+			"contentData":{
+				"content":"This is Pickup Page!"
+			}
+		},
+		{
+			"idMenu":3,
+			"menu": "Order",
+			"icon":"box",
+			"contentData":{
+				"content":"This is Order Page!"
+			}
+		},
+		{
+			"idMenu":4,
+			"menu": "Driver",
+			"icon":"shipping-fast",
+			"contentData":{
+				"content":"This is Driver Page!",
+				"driver":[
+					{
+						"id":"KOB209",
+						"name":"Rowan Gardner",
+						"phone": "085885553377",
+						"schedule": "senin,selasa,rabu,kamis,jumat,sabtu,minggu",
+						"driverStatus": "ok"
+					},
+					{
+						"id":"CKM311",
+						"name":"Ferdinand Russell",
+						"phone": "081144376812",
+						"schedule": "jumat,sabtu,minggu",
+						"driverStatus": "ok"
+					},
+					{
+						"id":"SJD442",
+						"name":"Terry Burrows",
+						"phone": "081283629372",
+						"schedule": "selasa,rabu,kamis,jumat",
+						"driverStatus": "warning"
+					},
+					{
+						"id":"ILM223",
+						"name":"Cliff Hudson",
+						"phone": "083748230476",
+						"schedule": "sabtu,minggu",
+						"driverStatus": "ok"
+					},
+					{
+						"id":"WQR492",
+						"name":"Dale Harvey",
+						"phone": "081892839237",
+						"schedule": "senin,selasa,rabu,kamis,jumat",
+						"driverStatus": "ok"
+					},
+					{
+						"id":"HDN715",
+						"name":"Philbert Chambers",
+						"phone": "081372379372",
+						"schedule": "sabtu,minggu,senin,selasa",
+						"driverStatus": "ok"
+					}
+				]
+			}
+		},
+		{
+			"idMenu":5,
+			"menu": "Merchant",
+			"icon":"store",
+			"contentData":{
+				"content":"This is Merchant Page!"
+			}
+		},
+		{
+			"idMenu":6,
+			"menu": "Laporan",
+			"icon":"chart-bar",
+			"contentData":{
+				"content":"This is Laporan Page!"
+			}
+		},
+		{
+			"idMenu":7,
+			"menu": "Profil",
+			"icon":"user-circle",
+			"contentData":{
+				"content":"This is Profil Page!"
+			}
+		}
+	]
+}
